@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-zinc-900 text-white h-screen flex items-center justify-center">
+    <div class="w-full max-w-md p-8 space-y-8 bg-zinc-800 rounded-lg shadow-lg">
+      <!-- Form Heading -->
+      <h2 class="text-3xl font-bold text-center">Create Account</h2>
+
+      <!-- Login Form -->
+
+      <!-- Username Input -->
+      <form method="post" action="/create" class="space-y-6">
+        <div>
+          <label for="username" class="block mb-2 text-sm font-medium"
+            >Username</label
+          >
+          <input
+            id="username"
+            name="username"
+            type="text"
+            required
+            class="w-full px-4 py-2 text-sm bg-zinc-900 border border-zinc-700 rounded-md focus:ring-blue-500 focus:border-blue-500 placeholder-zinc-500"
+            placeholder="Enter your username" />
+        </div>
+
+        <!-- Username/Email Input -->
+        <div>
+          <label for="email" class="block mb-2 text-sm font-medium"
+            >Email</label
+          >
+          <input
+            id="email"
+            name="email"
+            type="email"
+            required
+            class="w-full px-4 py-2 text-sm bg-zinc-900 border border-zinc-700 rounded-md focus:ring-blue-500 focus:border-blue-500 placeholder-zinc-500"
+            placeholder="Enter your email" />
+        </div>
+
+        <!-- Password Input -->
+        <div>
+          <label for="password" class="block mb-2 text-sm font-medium"
+            >Password</label
+          >
+          <input
+            id="password"
+            name="password"
+            type="password"
+            required
+            class="w-full px-4 py-2 text-sm bg-zinc-900 border border-zinc-700 rounded-md focus:ring-blue-500 focus:border-blue-500 placeholder-zinc-500"
+            placeholder="Enter your password" />
+        </div>
+
+        <!-- Age Input -->
+        <div>
+          <label for="Age" class="block mb-2 text-sm font-medium">Age</label>
+          <input
+            id="age"
+            name="age"
+            type="number"
+            required
+            class="w-full px-4 py-2 text-sm bg-zinc-900 border border-zinc-700 rounded-md focus:ring-blue-500 focus:border-blue-500 placeholder-zinc-500"
+            placeholder="Enter your username" />
+        </div>
+
+        <!-- Mobile Input -->
+        <div>
+          <label for="mobile" class="block mb-2 text-sm font-medium"
+            >Mobile</label
+          >
+          <input
+            id="mobile"
+            name="mobile"
+            type="tel"
+            required
+            class="w-full px-4 py-2 text-sm bg-zinc-900 border border-zinc-700 rounded-md focus:ring-blue-500 focus:border-blue-500 placeholder-zinc-500"
+            placeholder="Enter your username" />
+        </div>
+
+        <!-- Remember Me Checkbox -->
+        <!-- <div class="flex items-center">
+          <input
+            id="remember"
+            type="checkbox"
+            class="w-4 h-4 text-blue-600 bg-zinc-900 border-zinc-700 rounded focus:ring-blue-500"
+            name="remember" />
+          <label for="remember" class="ml-2 text-sm">Remember me</label>
+        </div> -->
+
+        <!-- Submit Button -->
+        <div>
+          <button
+            type="submit"
+            class="w-full px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+            Create Account
+          </button>
+        </div>
+
+        <!-- Forgot Password Link -->
+        <!-- <div class="text-sm text-center">
+          <a href="/forgot-password" class="text-blue-400 hover:underline">
+            Forgot your password?
+          </a>
+        </div> -->
+      </form>
+
+      <!-- Divider -->
+      <!-- <div class="flex items-center justify-center space-x-2">
+        <span class="h-px w-16 bg-zinc-700"></span>
+        <span class="text-sm">OR</span>
+        <span class="h-px w-16 bg-zinc-700"></span>
+      </div> -->
+
+      <!-- Social Login Buttons -->
+      <!-- <div class="flex justify-center space-x-4">
+        <button
+          type="button"
+          class="flex items-center px-4 py-2 text-sm text-zinc-200 bg-blue-600 hover:bg-blue-500 rounded-md">
+          Login with Facebook
+        </button>
+        <button
+          type="button"
+          class="flex items-center px-4 py-2 text-sm text-zinc-200 bg-zinc-600 hover:bg-zinc-500 rounded-md">
+          Login with GitHub
+        </button>
+      </div> -->
+
+      <!-- Sign-Up Link -->
+      <!-- <p class="text-sm text-center">
+        Don’t have an account?
+        <a href="/register" class="text-blue-400 hover:underline"> Sign up </a>
+      </p> -->
+    </div>
+  </body>
+</html>
